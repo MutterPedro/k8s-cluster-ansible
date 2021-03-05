@@ -1,0 +1,3 @@
+- hosts: local
+  roles:
+  - { role: "creating-instances", tags: ["creating_instances_role"] }
